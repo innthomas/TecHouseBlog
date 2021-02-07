@@ -7,7 +7,9 @@ import BlogDetail from './components/BlogDetail';
 import Category from './components/Category';
 
 const App =()=>{
- <Router>
+
+        return (
+<Router>
         <Layout>
             <Switch>
                 <Route exact path='/' component={Home} />
@@ -17,6 +19,8 @@ const App =()=>{
             </Switch>
         </Layout>
     </Router>
-};
+        )
+
+}
 
 export default App;
